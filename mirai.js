@@ -62,7 +62,7 @@ var job = [
   "FF2200",
   "FF1100",
 ];
-const login = require("sagor-vex-fca");
+const login = require("sagor-x-fca");
 const axios = require("axios");
 const listPackage = JSON.parse(readFileSync("./package.json")).dependencies;
 const listbuiltinModules = require("module").builtinMxodules;
